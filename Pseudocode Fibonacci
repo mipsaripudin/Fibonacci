@@ -1,0 +1,20 @@
+Judul :
+Mengambil_Deret_Bilangan_Fibonacci
+Deklarasi :
+var f_b_2 = 0
+var f_b_1 = 1
+var f_b = 1
+var i = int
+
+Algoritma :
+UserInput : “Menampilkan nilai Fibonacci ke : “
+READ 	f_b_2 = 0
+f_b_1 = 1
+f_b = 1
+
+for (int i = 1; i <= n ; i++)
+WRITE (“nilai ke – “+ i + ” adalah “ + f_b);
+SET	f_b = f_b_1 + f_b_2;
+	f_b_2 = f_b;
+	f_b_1 = f_b;
+END
